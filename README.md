@@ -1,8 +1,8 @@
-# Build_EXE Enterprise
+# Build_EXE
 
 Framework professionnel pour la création, le déploiement et la mise à jour d'applications Windows développées en Python.
 
-Build_EXE Enterprise fournit une architecture moderne basée sur PySide6, GitHub Actions, GitHub Releases et Inno Setup afin de produire des applications Windows robustes, maintenables et distribuables à grande échelle.
+Build_EXE fournit une architecture moderne basée sur PySide6, GitHub Actions, GitHub Releases et Inno Setup afin de produire des applications Windows robustes, maintenables et distribuables à grande échelle.
 
 ---
 
@@ -272,6 +272,6 @@ MIT License
 
 # Auteur
 
-Build_EXE Enterprise Framework
+Build_EXE Framework
 
 Conçu pour le déploiement professionnel d'applications Python sous Windows.
