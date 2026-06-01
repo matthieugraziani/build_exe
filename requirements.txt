@@ -1,2 +1,6 @@
+pyside6
 requests
 pyinstaller
+pytest
+black
+ruff

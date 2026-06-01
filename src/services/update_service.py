@@ -1,0 +1,2 @@
+class UpdateService:
+    pass

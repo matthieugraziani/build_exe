@@ -1,0 +1,2 @@
+class GithubReleaseService:
+    pass
