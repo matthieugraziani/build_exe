@@ -1,0 +1,28 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Build
+        run: pyinstaller --onefile --windowed --name MonApp main.py
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/MonApp.exe
